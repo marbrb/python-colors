@@ -4,6 +4,8 @@ Usage
 
 To use python-colors in a project::
 
-    import colors
+    # Available colors are: black, red, green, yellow, blue, purple, cyan, white
+    from colors import red, green
 
-    print(colors.red('This text will be displayed on red color.'))
+    print(red('This text will be displayed on red color.'))
+    print(green('This text will be displayed on green color.'))

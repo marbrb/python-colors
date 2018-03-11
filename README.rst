@@ -26,7 +26,7 @@ Print colored text on UNIX terminals
 Features
 --------
 
-* TODO
+* Easy usage
 
 Credits
 -------

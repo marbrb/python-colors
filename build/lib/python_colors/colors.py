@@ -38,10 +38,18 @@ class Coloring:
 
 
 black = Coloring.make_color_function('BLACK')
+black.__doc__ = 'function to print black text.'
 red = Coloring.make_color_function('RED')
+red.__doc__ = 'function to print red text.'
 green = Coloring.make_color_function('GREEN')
+green.__doc__ = 'function to print green text.'
 yellow = Coloring.make_color_function('YELLOW')
+yellow.__doc__ = 'function to print yellow text.'
 blue = Coloring.make_color_function('BLUE')
+blue.__doc__ = 'function to print blue text.'
 purple = Coloring.make_color_function('PURPLE')
+purple.__doc__ = 'function to print purple text.'
 cyan = Coloring.make_color_function('CYAN')
+cyan.__doc__ = 'function to print cyan text.'
 white = Coloring.make_color_function('WHITE')
+white.__doc__ = 'function to print white text.'
