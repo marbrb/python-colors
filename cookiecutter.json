@@ -1,0 +1,18 @@
+{
+  "project_name": "python-colors",
+  "project_short_description": "Print colored text on UNIX terminals",
+  "full_name": "Miguel Rodriguez Bermudez",
+  "directory_name": "python-colors",
+  "email": "marbrb1@gmail.com",
+  "repo_name": "python-colors",
+  "release_date": "2018-03-11",
+  "year": "2018",
+  "version": "0.1.0",
+  "project_slug": "python-colors",
+  "github_username": "marbrb",
+  "pypi_username": "marbrb",
+  "use_pytest": "n",
+  "use_pypi_deployment_with_travis": "y",
+  "add_pyup_badge": "n",
+  "create_author_file": "y"
+}
