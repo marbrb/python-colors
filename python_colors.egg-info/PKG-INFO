@@ -1,6 +1,6 @@
 Metadata-Version: 1.1
 Name: python-colors
-Version: 0.1.0
+Version: 0.1.1
 Summary: Print colored text on UNIX terminals
 Home-page: https://github.com/marbrb/python-colors
 Author: Miguel Angel Rodriguez Bermudez
