@@ -10,7 +10,10 @@ class Coloring:
     '''Class for print colored text on UNIX terminals on a easy way, available
     colors are: BLACK, RED, GREEN, YELLOW, BLUE, PURPLE, CYAN, WHITE
     '''
-    colors = {
+
+    default_property = 'BLACK'
+
+    properties = {
         'BLACK':  '\033[90m',
         'RED':  '\033[91m',
         'GREEN':  '\033[92m',
@@ -33,23 +36,24 @@ class Coloring:
 
     @classmethod
     def make_color_function(self, color):
-        color = self.colors.get(color, self.colors['BLACK']) # default BLACK
+        default = self.default_property
+        color = self.properties.get(color, self.properties[default]) # default BLACK
         return partial(self.colored_text, color=color)
 
+class Styling(Coloring):
+    default_property = 'BOLD'
+
+    properties = {
+        'BOLD': '\033[1m'
+    }
 
 black = Coloring.make_color_function('BLACK')
-black.__doc__ = 'function to print black text.'
 red = Coloring.make_color_function('RED')
-red.__doc__ = 'function to print red text.'
 green = Coloring.make_color_function('GREEN')
-green.__doc__ = 'function to print green text.'
 yellow = Coloring.make_color_function('YELLOW')
-yellow.__doc__ = 'function to print yellow text.'
 blue = Coloring.make_color_function('BLUE')
-blue.__doc__ = 'function to print blue text.'
 purple = Coloring.make_color_function('PURPLE')
-purple.__doc__ = 'function to print purple text.'
 cyan = Coloring.make_color_function('CYAN')
-cyan.__doc__ = 'function to print cyan text.'
 white = Coloring.make_color_function('WHITE')
-white.__doc__ = 'function to print white text.'
+
+bold = Styling.make_color_function('BOLD')
