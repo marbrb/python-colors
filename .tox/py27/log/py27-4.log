@@ -1,0 +1,15 @@
+actionid: py27
+msg: installpkg
+cmdargs: ['/home/miguel/Documentos/python-colors/.tox/py27/bin/pip', 'install', '-U', '--no-deps', '/home/miguel/Documentos/python-colors/.tox/dist/python_colors-0.1.2.zip']
+
+Processing ./.tox/dist/python_colors-0.1.2.zip
+Building wheels for collected packages: python-colors
+  Running setup.py bdist_wheel for python-colors: started
+  Running setup.py bdist_wheel for python-colors: finished with status 'done'
+  Stored in directory: /home/miguel/.cache/pip/wheels/76/40/ea/d4a6863860478a98e267db15925bfd22bf5441fbf1e5caecca
+Successfully built python-colors
+Installing collected packages: python-colors
+  Found existing installation: python-colors 0.1.2
+    Not uninstalling python-colors at /home/miguel/Documentos/python-colors, outside environment /home/miguel/Documentos/python-colors/.tox/py27
+    Can't uninstall 'python-colors'. No files were found to uninstall.
+Successfully installed python-colors-0.1.2

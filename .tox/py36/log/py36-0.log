@@ -1,0 +1,10 @@
+actionid: py36
+msg: getenv
+cmdargs: ['/home/miguel/.virtualenvs/colors/bin/python3', '-m', 'virtualenv', '--python', '/usr/local/bin/python3.6', 'py36']
+
+Using base prefix '/usr/local'
+New python executable in /home/miguel/Documentos/python-colors/.tox/py36/bin/python3.6
+Also creating executable in /home/miguel/Documentos/python-colors/.tox/py36/bin/python
+Installing setuptools, pip, wheel...
+done.
+Running virtualenv with interpreter /usr/local/bin/python3.6

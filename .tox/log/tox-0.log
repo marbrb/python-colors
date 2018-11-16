@@ -1,0 +1,110 @@
+actionid: tox
+msg: packaging
+cmdargs: ['/home/miguel/.virtualenvs/colors/bin/python3', local('/home/miguel/Documentos/python-colors/setup.py'), 'sdist', '--formats=zip', '--dist-dir', local('/home/miguel/Documentos/python-colors/.tox/dist')]
+
+running sdist
+running egg_info
+writing python_colors.egg-info/PKG-INFO
+writing dependency_links to python_colors.egg-info/dependency_links.txt
+writing entry points to python_colors.egg-info/entry_points.txt
+writing requirements to python_colors.egg-info/requires.txt
+writing top-level names to python_colors.egg-info/top_level.txt
+reading manifest file 'python_colors.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+warning: no previously-included files matching '__pycache__' found under directory '*'
+warning: no files found matching '*.jpg' under directory 'docs'
+writing manifest file 'python_colors.egg-info/SOURCES.txt'
+running check
+creating python_colors-0.1.2
+creating python_colors-0.1.2/docs
+creating python_colors-0.1.2/docs/_build
+creating python_colors-0.1.2/docs/_build/html
+creating python_colors-0.1.2/docs/_build/html/_static
+creating python_colors-0.1.2/python_colors
+creating python_colors-0.1.2/python_colors.egg-info
+creating python_colors-0.1.2/tests
+copying files to python_colors-0.1.2...
+copying AUTHORS.rst -> python_colors-0.1.2
+copying CONTRIBUTING.rst -> python_colors-0.1.2
+copying HISTORY.rst -> python_colors-0.1.2
+copying LICENSE -> python_colors-0.1.2
+copying MANIFEST.in -> python_colors-0.1.2
+copying README.rst -> python_colors-0.1.2
+copying setup.cfg -> python_colors-0.1.2
+copying setup.py -> python_colors-0.1.2
+copying docs/Makefile -> python_colors-0.1.2/docs
+copying docs/authors.rst -> python_colors-0.1.2/docs
+copying docs/conf.py -> python_colors-0.1.2/docs
+copying docs/contributing.rst -> python_colors-0.1.2/docs
+copying docs/history.rst -> python_colors-0.1.2/docs
+copying docs/index.rst -> python_colors-0.1.2/docs
+copying docs/installation.rst -> python_colors-0.1.2/docs
+copying docs/make.bat -> python_colors-0.1.2/docs
+copying docs/readme.rst -> python_colors-0.1.2/docs
+copying docs/usage.rst -> python_colors-0.1.2/docs
+copying docs/_build/html/_static/ajax-loader.gif -> python_colors-0.1.2/docs/_build/html/_static
+copying docs/_build/html/_static/comment-bright.png -> python_colors-0.1.2/docs/_build/html/_static
+copying docs/_build/html/_static/comment-close.png -> python_colors-0.1.2/docs/_build/html/_static
+copying docs/_build/html/_static/comment.png -> python_colors-0.1.2/docs/_build/html/_static
+copying docs/_build/html/_static/down-pressed.png -> python_colors-0.1.2/docs/_build/html/_static
+copying docs/_build/html/_static/down.png -> python_colors-0.1.2/docs/_build/html/_static
+copying docs/_build/html/_static/file.png -> python_colors-0.1.2/docs/_build/html/_static
+copying docs/_build/html/_static/minus.png -> python_colors-0.1.2/docs/_build/html/_static
+copying docs/_build/html/_static/plus.png -> python_colors-0.1.2/docs/_build/html/_static
+copying docs/_build/html/_static/up-pressed.png -> python_colors-0.1.2/docs/_build/html/_static
+copying docs/_build/html/_static/up.png -> python_colors-0.1.2/docs/_build/html/_static
+copying python_colors/__init__.py -> python_colors-0.1.2/python_colors
+copying python_colors/cli.py -> python_colors-0.1.2/python_colors
+copying python_colors/colors.py -> python_colors-0.1.2/python_colors
+copying python_colors.egg-info/PKG-INFO -> python_colors-0.1.2/python_colors.egg-info
+copying python_colors.egg-info/SOURCES.txt -> python_colors-0.1.2/python_colors.egg-info
+copying python_colors.egg-info/dependency_links.txt -> python_colors-0.1.2/python_colors.egg-info
+copying python_colors.egg-info/entry_points.txt -> python_colors-0.1.2/python_colors.egg-info
+copying python_colors.egg-info/not-zip-safe -> python_colors-0.1.2/python_colors.egg-info
+copying python_colors.egg-info/requires.txt -> python_colors-0.1.2/python_colors.egg-info
+copying python_colors.egg-info/top_level.txt -> python_colors-0.1.2/python_colors.egg-info
+copying tests/test_python_colors.py -> python_colors-0.1.2/tests
+Writing python_colors-0.1.2/setup.cfg
+creating '.tox/dist/python_colors-0.1.2.zip' and adding 'python_colors-0.1.2' to it
+adding 'python_colors-0.1.2/MANIFEST.in'
+adding 'python_colors-0.1.2/setup.cfg'
+adding 'python_colors-0.1.2/HISTORY.rst'
+adding 'python_colors-0.1.2/LICENSE'
+adding 'python_colors-0.1.2/PKG-INFO'
+adding 'python_colors-0.1.2/setup.py'
+adding 'python_colors-0.1.2/AUTHORS.rst'
+adding 'python_colors-0.1.2/CONTRIBUTING.rst'
+adding 'python_colors-0.1.2/README.rst'
+adding 'python_colors-0.1.2/python_colors.egg-info/dependency_links.txt'
+adding 'python_colors-0.1.2/python_colors.egg-info/PKG-INFO'
+adding 'python_colors-0.1.2/python_colors.egg-info/SOURCES.txt'
+adding 'python_colors-0.1.2/python_colors.egg-info/requires.txt'
+adding 'python_colors-0.1.2/python_colors.egg-info/top_level.txt'
+adding 'python_colors-0.1.2/python_colors.egg-info/not-zip-safe'
+adding 'python_colors-0.1.2/python_colors.egg-info/entry_points.txt'
+adding 'python_colors-0.1.2/tests/test_python_colors.py'
+adding 'python_colors-0.1.2/docs/authors.rst'
+adding 'python_colors-0.1.2/docs/history.rst'
+adding 'python_colors-0.1.2/docs/index.rst'
+adding 'python_colors-0.1.2/docs/conf.py'
+adding 'python_colors-0.1.2/docs/usage.rst'
+adding 'python_colors-0.1.2/docs/contributing.rst'
+adding 'python_colors-0.1.2/docs/installation.rst'
+adding 'python_colors-0.1.2/docs/make.bat'
+adding 'python_colors-0.1.2/docs/Makefile'
+adding 'python_colors-0.1.2/docs/readme.rst'
+adding 'python_colors-0.1.2/docs/_build/html/_static/file.png'
+adding 'python_colors-0.1.2/docs/_build/html/_static/down-pressed.png'
+adding 'python_colors-0.1.2/docs/_build/html/_static/comment-bright.png'
+adding 'python_colors-0.1.2/docs/_build/html/_static/up.png'
+adding 'python_colors-0.1.2/docs/_build/html/_static/plus.png'
+adding 'python_colors-0.1.2/docs/_build/html/_static/comment-close.png'
+adding 'python_colors-0.1.2/docs/_build/html/_static/ajax-loader.gif'
+adding 'python_colors-0.1.2/docs/_build/html/_static/comment.png'
+adding 'python_colors-0.1.2/docs/_build/html/_static/minus.png'
+adding 'python_colors-0.1.2/docs/_build/html/_static/down.png'
+adding 'python_colors-0.1.2/docs/_build/html/_static/up-pressed.png'
+adding 'python_colors-0.1.2/python_colors/__init__.py'
+adding 'python_colors-0.1.2/python_colors/cli.py'
+adding 'python_colors-0.1.2/python_colors/colors.py'
+removing 'python_colors-0.1.2' (and everything under it)

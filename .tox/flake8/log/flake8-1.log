@@ -1,0 +1,15 @@
+actionid: flake8
+msg: getenv
+cmdargs: ['/home/miguel/Documentos/python-colors/.tox/flake8/bin/pip', 'install', 'flake8']
+
+Collecting flake8
+  Downloading https://files.pythonhosted.org/packages/34/a6/49e2849a0e5464e1b5d621f63bc8453066f0f367bb3b744a33fca0bc1ddd/flake8-3.6.0-py2.py3-none-any.whl (68kB)
+Collecting mccabe<0.7.0,>=0.6.0 (from flake8)
+  Using cached https://files.pythonhosted.org/packages/87/89/479dc97e18549e21354893e4ee4ef36db1d237534982482c3681ee6e7b57/mccabe-0.6.1-py2.py3-none-any.whl
+Collecting pyflakes<2.1.0,>=2.0.0 (from flake8)
+  Downloading https://files.pythonhosted.org/packages/44/98/af7a72c9a543b1487d92813c648cb9b9adfbc96faef5455d60f4439aa99b/pyflakes-2.0.0-py2.py3-none-any.whl (53kB)
+Collecting pycodestyle<2.5.0,>=2.4.0 (from flake8)
+  Downloading https://files.pythonhosted.org/packages/e5/c6/ce130213489969aa58610042dff1d908c25c731c9575af6935c2dfad03aa/pycodestyle-2.4.0-py2.py3-none-any.whl (62kB)
+Requirement already satisfied: setuptools>=30 in ./.tox/flake8/lib/python3.7/site-packages (from flake8) (40.6.2)
+Installing collected packages: mccabe, pyflakes, pycodestyle, flake8
+Successfully installed flake8-3.6.0 mccabe-0.6.1 pycodestyle-2.4.0 pyflakes-2.0.0

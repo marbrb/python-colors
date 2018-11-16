@@ -1,0 +1,126 @@
+actionid: py27
+msg: getenv
+cmdargs: ['/home/miguel/Documentos/python-colors/.tox/py27/bin/pip', 'install', '-r/home/miguel/Documentos/python-colors/requirements_dev.txt']
+
+Collecting pip==9.0.1 (from -r /home/miguel/Documentos/python-colors/requirements_dev.txt (line 1))
+  Using cached https://files.pythonhosted.org/packages/b6/ac/7015eb97dc749283ffdec1c3a88ddb8ae03b8fad0f0e611408f196358da3/pip-9.0.1-py2.py3-none-any.whl
+Collecting bumpversion==0.5.3 (from -r /home/miguel/Documentos/python-colors/requirements_dev.txt (line 2))
+  Using cached https://files.pythonhosted.org/packages/ad/34/49c914829066558ebd405a56647d3ee26856282b8b8c4cd2c0c8de40ff8e/bumpversion-0.5.3-py2.py3-none-any.whl
+Collecting wheel==0.30.0 (from -r /home/miguel/Documentos/python-colors/requirements_dev.txt (line 3))
+  Using cached https://files.pythonhosted.org/packages/0c/80/16a85b47702a1f47a63c104c91abdd0a6704ee8ae3b4ce4afc49bc39f9d9/wheel-0.30.0-py2.py3-none-any.whl
+Collecting watchdog==0.8.3 (from -r /home/miguel/Documentos/python-colors/requirements_dev.txt (line 4))
+  Using cached https://files.pythonhosted.org/packages/54/7d/c7c0ad1e32b9f132075967fc353a244eb2b375a3d2f5b0ce612fd96e107e/watchdog-0.8.3.tar.gz
+Collecting flake8==3.5.0 (from -r /home/miguel/Documentos/python-colors/requirements_dev.txt (line 5))
+  Using cached https://files.pythonhosted.org/packages/b9/dc/14e9d94c770b8c4ef584e906c7583e74864786a58d47de101f2767d50c0b/flake8-3.5.0-py2.py3-none-any.whl
+Collecting tox==2.9.1 (from -r /home/miguel/Documentos/python-colors/requirements_dev.txt (line 6))
+  Using cached https://files.pythonhosted.org/packages/1d/4e/20c679f8c5948f7c48591fde33d442e716af66a31a88f5791850a75041eb/tox-2.9.1-py2.py3-none-any.whl
+Collecting coverage==4.5.1 (from -r /home/miguel/Documentos/python-colors/requirements_dev.txt (line 7))
+  Downloading https://files.pythonhosted.org/packages/31/22/724704999cf994b590db9421b5ef1b5122ea485d67d56f9ecf34f2f721ad/coverage-4.5.1-cp27-cp27mu-manylinux1_x86_64.whl (199kB)
+Collecting Sphinx==1.7.1 (from -r /home/miguel/Documentos/python-colors/requirements_dev.txt (line 8))
+  Using cached https://files.pythonhosted.org/packages/2a/85/078fd06b2524085229b1f317c59c6366573ba87e3579e9b8f1326e730a7f/Sphinx-1.7.1-py2.py3-none-any.whl
+Collecting twine (from -r /home/miguel/Documentos/python-colors/requirements_dev.txt (line 9))
+  Using cached https://files.pythonhosted.org/packages/26/7f/92c7083b66bc7ed32940cc0e25ae070c033d384d158617635222e7a08e92/twine-1.12.1-py2.py3-none-any.whl
+Collecting pytest==3.4.2 (from -r /home/miguel/Documentos/python-colors/requirements_dev.txt (line 11))
+  Using cached https://files.pythonhosted.org/packages/f1/5c/411ceafef3b5e5486d16f174db18dc26f49e7704dbf59ef488e95db47339/pytest-3.4.2-py2.py3-none-any.whl
+Collecting pytest-runner==2.11.1 (from -r /home/miguel/Documentos/python-colors/requirements_dev.txt (line 12))
+  Using cached https://files.pythonhosted.org/packages/26/d4/9e25eb226ddc6d395a72e3a6a6dcdfea197c21a2c7fbcd6f94545effb04d/pytest_runner-2.11.1-py2.py3-none-any.whl
+Collecting PyYAML>=3.10 (from watchdog==0.8.3->-r /home/miguel/Documentos/python-colors/requirements_dev.txt (line 4))
+  Using cached https://files.pythonhosted.org/packages/9e/a3/1d13970c3f36777c583f136c136f804d70f500168edc1edea6daa7200769/PyYAML-3.13.tar.gz
+Collecting argh>=0.24.1 (from watchdog==0.8.3->-r /home/miguel/Documentos/python-colors/requirements_dev.txt (line 4))
+  Using cached https://files.pythonhosted.org/packages/06/1c/e667a7126f0b84aaa1c56844337bf0ac12445d1beb9c8a6199a7314944bf/argh-0.26.2-py2.py3-none-any.whl
+Collecting pathtools>=0.1.1 (from watchdog==0.8.3->-r /home/miguel/Documentos/python-colors/requirements_dev.txt (line 4))
+  Using cached https://files.pythonhosted.org/packages/e7/7f/470d6fcdf23f9f3518f6b0b76be9df16dcc8630ad409947f8be2eb0ed13a/pathtools-0.1.2.tar.gz
+Collecting configparser; python_version < "3.2" (from flake8==3.5.0->-r /home/miguel/Documentos/python-colors/requirements_dev.txt (line 5))
+  Downloading https://files.pythonhosted.org/packages/7c/69/c2ce7e91c89dc073eb1aa74c0621c3eefbffe8216b3f9af9d3885265c01c/configparser-3.5.0.tar.gz
+Collecting pyflakes<1.7.0,>=1.5.0 (from flake8==3.5.0->-r /home/miguel/Documentos/python-colors/requirements_dev.txt (line 5))
+  Using cached https://files.pythonhosted.org/packages/d7/40/733bcc64da3161ae4122c11e88269f276358ca29335468005cb0ee538665/pyflakes-1.6.0-py2.py3-none-any.whl
+Collecting mccabe<0.7.0,>=0.6.0 (from flake8==3.5.0->-r /home/miguel/Documentos/python-colors/requirements_dev.txt (line 5))
+  Using cached https://files.pythonhosted.org/packages/87/89/479dc97e18549e21354893e4ee4ef36db1d237534982482c3681ee6e7b57/mccabe-0.6.1-py2.py3-none-any.whl
+Collecting pycodestyle<2.4.0,>=2.0.0 (from flake8==3.5.0->-r /home/miguel/Documentos/python-colors/requirements_dev.txt (line 5))
+  Using cached https://files.pythonhosted.org/packages/e4/81/78fe51eb4038d1388b7217dd63770b0f428370207125047312886c923b26/pycodestyle-2.3.1-py2.py3-none-any.whl
+Collecting enum34; python_version < "3.4" (from flake8==3.5.0->-r /home/miguel/Documentos/python-colors/requirements_dev.txt (line 5))
+  Downloading https://files.pythonhosted.org/packages/c5/db/e56e6b4bbac7c4a06de1c50de6fe1ef3810018ae11732a50f15f62c7d050/enum34-1.1.6-py2-none-any.whl
+Collecting py>=1.4.17 (from tox==2.9.1->-r /home/miguel/Documentos/python-colors/requirements_dev.txt (line 6))
+  Using cached https://files.pythonhosted.org/packages/3e/c7/3da685ef117d42ac8d71af525208759742dd235f8094221fdaafcd3dba8f/py-1.7.0-py2.py3-none-any.whl
+Collecting virtualenv>=1.11.2; python_version != "3.2" (from tox==2.9.1->-r /home/miguel/Documentos/python-colors/requirements_dev.txt (line 6))
+  Using cached https://files.pythonhosted.org/packages/7c/17/9b7b6cddfd255388b58c61e25b091047f6814183e1d63741c8df8dcd65a2/virtualenv-16.1.0-py2.py3-none-any.whl
+Collecting six (from tox==2.9.1->-r /home/miguel/Documentos/python-colors/requirements_dev.txt (line 6))
+  Using cached https://files.pythonhosted.org/packages/67/4b/141a581104b1f6397bfa78ac9d43d8ad29a7ca43ea90a2d863fe3056e86a/six-1.11.0-py2.py3-none-any.whl
+Collecting pluggy<1.0,>=0.3.0 (from tox==2.9.1->-r /home/miguel/Documentos/python-colors/requirements_dev.txt (line 6))
+  Using cached https://files.pythonhosted.org/packages/1c/e7/017c262070af41fe251401cb0d0e1b7c38f656da634cd0c15604f1f30864/pluggy-0.8.0-py2.py3-none-any.whl
+Collecting snowballstemmer>=1.1 (from Sphinx==1.7.1->-r /home/miguel/Documentos/python-colors/requirements_dev.txt (line 8))
+  Using cached https://files.pythonhosted.org/packages/d4/6c/8a935e2c7b54a37714656d753e4187ee0631988184ed50c0cf6476858566/snowballstemmer-1.2.1-py2.py3-none-any.whl
+Collecting typing; python_version < "3.5" (from Sphinx==1.7.1->-r /home/miguel/Documentos/python-colors/requirements_dev.txt (line 8))
+  Downloading https://files.pythonhosted.org/packages/cc/3e/29f92b7aeda5b078c86d14f550bf85cff809042e3429ace7af6193c3bc9f/typing-3.6.6-py2-none-any.whl
+Collecting imagesize (from Sphinx==1.7.1->-r /home/miguel/Documentos/python-colors/requirements_dev.txt (line 8))
+  Using cached https://files.pythonhosted.org/packages/fc/b6/aef66b4c52a6ad6ac18cf6ebc5731ed06d8c9ae4d3b2d9951f261150be67/imagesize-1.1.0-py2.py3-none-any.whl
+Collecting docutils>=0.11 (from Sphinx==1.7.1->-r /home/miguel/Documentos/python-colors/requirements_dev.txt (line 8))
+  Downloading https://files.pythonhosted.org/packages/50/09/c53398e0005b11f7ffb27b7aa720c617aba53be4fb4f4f3f06b9b5c60f28/docutils-0.14-py2-none-any.whl (543kB)
+Requirement already satisfied: setuptools in ./.tox/py27/lib/python2.7/site-packages (from Sphinx==1.7.1->-r /home/miguel/Documentos/python-colors/requirements_dev.txt (line 8)) (40.6.2)
+Collecting sphinxcontrib-websupport (from Sphinx==1.7.1->-r /home/miguel/Documentos/python-colors/requirements_dev.txt (line 8))
+  Using cached https://files.pythonhosted.org/packages/52/69/3c2fbdc3702358c5b34ee25e387b24838597ef099761fc9a42c166796e8f/sphinxcontrib_websupport-1.1.0-py2.py3-none-any.whl
+Collecting Jinja2>=2.3 (from Sphinx==1.7.1->-r /home/miguel/Documentos/python-colors/requirements_dev.txt (line 8))
+  Using cached https://files.pythonhosted.org/packages/7f/ff/ae64bacdfc95f27a016a7bed8e8686763ba4d277a78ca76f32659220a731/Jinja2-2.10-py2.py3-none-any.whl
+Collecting alabaster<0.8,>=0.7 (from Sphinx==1.7.1->-r /home/miguel/Documentos/python-colors/requirements_dev.txt (line 8))
+  Using cached https://files.pythonhosted.org/packages/10/ad/00b090d23a222943eb0eda509720a404f531a439e803f6538f35136cae9e/alabaster-0.7.12-py2.py3-none-any.whl
+Collecting Pygments>=2.0 (from Sphinx==1.7.1->-r /home/miguel/Documentos/python-colors/requirements_dev.txt (line 8))
+  Using cached https://files.pythonhosted.org/packages/02/ee/b6e02dc6529e82b75bb06823ff7d005b141037cb1416b10c6f00fc419dca/Pygments-2.2.0-py2.py3-none-any.whl
+Collecting babel!=2.0,>=1.3 (from Sphinx==1.7.1->-r /home/miguel/Documentos/python-colors/requirements_dev.txt (line 8))
+  Using cached https://files.pythonhosted.org/packages/b8/ad/c6f60602d3ee3d92fbed87675b6fb6a6f9a38c223343ababdb44ba201f10/Babel-2.6.0-py2.py3-none-any.whl
+Collecting packaging (from Sphinx==1.7.1->-r /home/miguel/Documentos/python-colors/requirements_dev.txt (line 8))
+  Using cached https://files.pythonhosted.org/packages/89/d1/92e6df2e503a69df9faab187c684585f0136662c12bb1f36901d426f3fab/packaging-18.0-py2.py3-none-any.whl
+Collecting requests>=2.0.0 (from Sphinx==1.7.1->-r /home/miguel/Documentos/python-colors/requirements_dev.txt (line 8))
+  Using cached https://files.pythonhosted.org/packages/ff/17/5cbb026005115301a8fb2f9b0e3e8d32313142fe8b617070e7baad20554f/requests-2.20.1-py2.py3-none-any.whl
+Collecting pkginfo>=1.4.2 (from twine->-r /home/miguel/Documentos/python-colors/requirements_dev.txt (line 9))
+  Using cached https://files.pythonhosted.org/packages/a3/fe/f32a48d48f40a7209be9825fba2566cab92364787cf37de2e08300dd6ce7/pkginfo-1.4.2-py2.py3-none-any.whl
+Collecting readme-renderer>=21.0 (from twine->-r /home/miguel/Documentos/python-colors/requirements_dev.txt (line 9))
+  Using cached https://files.pythonhosted.org/packages/c3/7e/d1aae793900f36b097cbfcc5e70eef82b5b56423a6c52a36dce51fedd8f0/readme_renderer-24.0-py2.py3-none-any.whl
+Collecting requests-toolbelt>=0.8.0 (from twine->-r /home/miguel/Documentos/python-colors/requirements_dev.txt (line 9))
+  Using cached https://files.pythonhosted.org/packages/97/8a/d710f792d6f6ecc089c5e55b66e66c3f2f35516a1ede5a8f54c13350ffb0/requests_toolbelt-0.8.0-py2.py3-none-any.whl
+Collecting tqdm>=4.14 (from twine->-r /home/miguel/Documentos/python-colors/requirements_dev.txt (line 9))
+  Using cached https://files.pythonhosted.org/packages/91/55/8cb23a97301b177e9c8e3226dba45bb454411de2cbd25746763267f226c2/tqdm-4.28.1-py2.py3-none-any.whl
+Collecting attrs>=17.2.0 (from pytest==3.4.2->-r /home/miguel/Documentos/python-colors/requirements_dev.txt (line 11))
+  Using cached https://files.pythonhosted.org/packages/3a/e1/5f9023cc983f1a628a8c2fd051ad19e76ff7b142a0faf329336f9a62a514/attrs-18.2.0-py2.py3-none-any.whl
+Collecting funcsigs; python_version < "3.0" (from pytest==3.4.2->-r /home/miguel/Documentos/python-colors/requirements_dev.txt (line 11))
+  Downloading https://files.pythonhosted.org/packages/69/cb/f5be453359271714c01b9bd06126eaf2e368f1fddfff30818754b5ac2328/funcsigs-1.0.2-py2.py3-none-any.whl
+Collecting MarkupSafe>=0.23 (from Jinja2>=2.3->Sphinx==1.7.1->-r /home/miguel/Documentos/python-colors/requirements_dev.txt (line 8))
+  Downloading https://files.pythonhosted.org/packages/bc/3a/6bfd7b4b202fa33bdda8e4e3d3acc719f381fd730f9a0e7c5f34e845bd4d/MarkupSafe-1.1.0-cp27-cp27mu-manylinux1_x86_64.whl
+Collecting pytz>=0a (from babel!=2.0,>=1.3->Sphinx==1.7.1->-r /home/miguel/Documentos/python-colors/requirements_dev.txt (line 8))
+  Using cached https://files.pythonhosted.org/packages/f8/0e/2365ddc010afb3d79147f1dd544e5ee24bf4ece58ab99b16fbb465ce6dc0/pytz-2018.7-py2.py3-none-any.whl
+Collecting pyparsing>=2.0.2 (from packaging->Sphinx==1.7.1->-r /home/miguel/Documentos/python-colors/requirements_dev.txt (line 8))
+  Using cached https://files.pythonhosted.org/packages/71/e8/6777f6624681c8b9701a8a0a5654f3eb56919a01a78e12bf3c73f5a3c714/pyparsing-2.3.0-py2.py3-none-any.whl
+Collecting idna<2.8,>=2.5 (from requests>=2.0.0->Sphinx==1.7.1->-r /home/miguel/Documentos/python-colors/requirements_dev.txt (line 8))
+  Using cached https://files.pythonhosted.org/packages/4b/2a/0276479a4b3caeb8a8c1af2f8e4355746a97fab05a372e4a2c6a6b876165/idna-2.7-py2.py3-none-any.whl
+Collecting urllib3<1.25,>=1.21.1 (from requests>=2.0.0->Sphinx==1.7.1->-r /home/miguel/Documentos/python-colors/requirements_dev.txt (line 8))
+  Using cached https://files.pythonhosted.org/packages/62/00/ee1d7de624db8ba7090d1226aebefab96a2c71cd5cfa7629d6ad3f61b79e/urllib3-1.24.1-py2.py3-none-any.whl
+Collecting certifi>=2017.4.17 (from requests>=2.0.0->Sphinx==1.7.1->-r /home/miguel/Documentos/python-colors/requirements_dev.txt (line 8))
+  Using cached https://files.pythonhosted.org/packages/56/9d/1d02dd80bc4cd955f98980f28c5ee2200e1209292d5f9e9cc8d030d18655/certifi-2018.10.15-py2.py3-none-any.whl
+Collecting chardet<3.1.0,>=3.0.2 (from requests>=2.0.0->Sphinx==1.7.1->-r /home/miguel/Documentos/python-colors/requirements_dev.txt (line 8))
+  Using cached https://files.pythonhosted.org/packages/bc/a9/01ffebfb562e4274b6487b4bb1ddec7ca55ec7510b22e4c51f14098443b8/chardet-3.0.4-py2.py3-none-any.whl
+Collecting bleach>=2.1.0 (from readme-renderer>=21.0->twine->-r /home/miguel/Documentos/python-colors/requirements_dev.txt (line 9))
+  Using cached https://files.pythonhosted.org/packages/d4/0d/4696373c3b714f6022d668fbab619690a42050dbeacede6d10ed97fbd3e2/bleach-3.0.2-py2.py3-none-any.whl
+Collecting webencodings (from bleach>=2.1.0->readme-renderer>=21.0->twine->-r /home/miguel/Documentos/python-colors/requirements_dev.txt (line 9))
+  Using cached https://files.pythonhosted.org/packages/f4/24/2a3e3df732393fed8b3ebf2ec078f05546de641fe1b667ee316ec1dcf3b7/webencodings-0.5.1-py2.py3-none-any.whl
+Building wheels for collected packages: watchdog, PyYAML, pathtools, configparser
+  Running setup.py bdist_wheel for watchdog: started
+  Running setup.py bdist_wheel for watchdog: finished with status 'done'
+  Stored in directory: /home/miguel/.cache/pip/wheels/3b/a0/6f/8c52fea32c994f833b55e7b73078f81c155ec108011c04e708
+  Running setup.py bdist_wheel for PyYAML: started
+  Running setup.py bdist_wheel for PyYAML: finished with status 'done'
+  Stored in directory: /home/miguel/.cache/pip/wheels/ad/da/0c/74eb680767247273e2cf2723482cb9c924fe70af57c334513f
+  Running setup.py bdist_wheel for pathtools: started
+  Running setup.py bdist_wheel for pathtools: finished with status 'done'
+  Stored in directory: /home/miguel/.cache/pip/wheels/0b/04/79/c3b0c3a0266a3cb4376da31e5bfe8bba0c489246968a68e843
+  Running setup.py bdist_wheel for configparser: started
+  Running setup.py bdist_wheel for configparser: finished with status 'done'
+  Stored in directory: /home/miguel/.cache/pip/wheels/a3/61/79/424ef897a2f3b14684a7de5d89e8600b460b89663e6ce9d17c
+Successfully built watchdog PyYAML pathtools configparser
+pytest 3.4.2 has requirement pluggy<0.7,>=0.5, but you'll have pluggy 0.8.0 which is incompatible.
+Installing collected packages: pip, bumpversion, wheel, PyYAML, argh, pathtools, watchdog, configparser, pyflakes, mccabe, pycodestyle, enum34, flake8, py, virtualenv, six, pluggy, tox, coverage, snowballstemmer, typing, imagesize, docutils, sphinxcontrib-websupport, MarkupSafe, Jinja2, alabaster, Pygments, pytz, babel, pyparsing, packaging, idna, urllib3, certifi, chardet, requests, Sphinx, pkginfo, webencodings, bleach, readme-renderer, requests-toolbelt, tqdm, twine, attrs, funcsigs, pytest, pytest-runner
+  Found existing installation: pip 18.1
+    Uninstalling pip-18.1:
+      Successfully uninstalled pip-18.1
+  Found existing installation: wheel 0.32.2
+    Uninstalling wheel-0.32.2:
+      Successfully uninstalled wheel-0.32.2
+Successfully installed Jinja2-2.10 MarkupSafe-1.1.0 PyYAML-3.13 Pygments-2.2.0 Sphinx-1.7.1 alabaster-0.7.12 argh-0.26.2 attrs-18.2.0 babel-2.6.0 bleach-3.0.2 bumpversion-0.5.3 certifi-2018.10.15 chardet-3.0.4 configparser-3.5.0 coverage-4.5.1 docutils-0.14 enum34-1.1.6 flake8-3.5.0 funcsigs-1.0.2 idna-2.7 imagesize-1.1.0 mccabe-0.6.1 packaging-18.0 pathtools-0.1.2 pip-9.0.1 pkginfo-1.4.2 pluggy-0.8.0 py-1.7.0 pycodestyle-2.3.1 pyflakes-1.6.0 pyparsing-2.3.0 pytest-3.4.2 pytest-runner-2.11.1 pytz-2018.7 readme-renderer-24.0 requests-2.20.1 requests-toolbelt-0.8.0 six-1.11.0 snowballstemmer-1.2.1 sphinxcontrib-websupport-1.1.0 tox-2.9.1 tqdm-4.28.1 twine-1.12.1 typing-3.6.6 urllib3-1.24.1 virtualenv-16.1.0 watchdog-0.8.3 webencodings-0.5.1 wheel-0.30.0

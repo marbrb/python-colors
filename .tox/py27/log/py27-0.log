@@ -1,0 +1,9 @@
+actionid: py27
+msg: getenv
+cmdargs: ['/home/miguel/.virtualenvs/colors/bin/python3', '-m', 'virtualenv', '--python', '/usr/bin/python2.7', 'py27']
+
+New python executable in /home/miguel/Documentos/python-colors/.tox/py27/bin/python2.7
+Also creating executable in /home/miguel/Documentos/python-colors/.tox/py27/bin/python
+Installing setuptools, pip, wheel...
+done.
+Running virtualenv with interpreter /usr/bin/python2.7

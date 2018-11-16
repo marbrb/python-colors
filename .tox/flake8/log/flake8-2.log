@@ -1,0 +1,17 @@
+actionid: flake8
+msg: installpkg
+cmdargs: ['/home/miguel/Documentos/python-colors/.tox/flake8/bin/pip', 'install', '/home/miguel/Documentos/python-colors/.tox/dist/python_colors-0.1.2.zip']
+
+Processing ./.tox/dist/python_colors-0.1.2.zip
+Collecting Click>=6.0 (from python-colors==0.1.2)
+  Using cached https://files.pythonhosted.org/packages/fa/37/45185cb5abbc30d7257104c434fe0b07e5a195a6847506c074527aa599ec/Click-7.0-py2.py3-none-any.whl
+Building wheels for collected packages: python-colors
+  Running setup.py bdist_wheel for python-colors: started
+  Running setup.py bdist_wheel for python-colors: finished with status 'done'
+  Stored in directory: /home/miguel/.cache/pip/wheels/76/40/ea/d4a6863860478a98e267db15925bfd22bf5441fbf1e5caecca
+Successfully built python-colors
+Installing collected packages: Click, python-colors
+  Found existing installation: python-colors 0.1.2
+    Not uninstalling python-colors at /home/miguel/Documentos/python-colors, outside environment /home/miguel/Documentos/python-colors/.tox/flake8
+    Can't uninstall 'python-colors'. No files were found to uninstall.
+Successfully installed Click-7.0 python-colors-0.1.2

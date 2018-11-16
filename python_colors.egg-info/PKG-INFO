@@ -1,12 +1,11 @@
 Metadata-Version: 1.1
 Name: python-colors
-Version: 0.1.1
+Version: 0.1.2
 Summary: Print colored text on UNIX terminals
 Home-page: https://github.com/marbrb/python-colors
 Author: Miguel Angel Rodriguez Bermudez
 Author-email: marbrb1@gmail.com
 License: GNU General Public License v3
-Description-Content-Type: UNKNOWN
 Description: =============
         python-colors
         =============
@@ -54,6 +53,12 @@ Description: =============
         ------------------
         
         * First release on PyPI.
+        
+        0.1.1 (2018-11-16)
+        ------------------
+        
+        * Added a class for creating styles e.g. Bold, and the Coloring class was made
+        a little bit more abstract
         
 Keywords: python_colors
 Platform: UNKNOWN

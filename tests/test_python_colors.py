@@ -7,7 +7,7 @@ import pytest
 
 from click.testing import CliRunner
 
-from python_colors import python_colors
+from python_colors import colors
 from python_colors import cli
 
 

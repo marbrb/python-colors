@@ -1,0 +1,9 @@
+actionid: flake8
+msg: getenv
+cmdargs: ['/home/miguel/.virtualenvs/colors/bin/python3', '-m', 'virtualenv', '--python', '/home/miguel/.virtualenvs/colors/bin/python', 'flake8']
+
+Using real prefix '/usr'
+New python executable in /home/miguel/Documentos/python-colors/.tox/flake8/bin/python
+Installing setuptools, pip, wheel...
+done.
+Running virtualenv with interpreter /home/miguel/.virtualenvs/colors/bin/python
